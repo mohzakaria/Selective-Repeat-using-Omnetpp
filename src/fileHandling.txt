@@ -1,0 +1,30 @@
+ifstream inputFile;
+    inputFile.open("../read.txt");
+    if(!inputFile.is_open())
+    {
+        cout << "error";
+    }
+
+    vector<string> message;
+    vector<string> prefix;
+    string line;
+
+    while(getline(inputFile,line))
+    {
+        prefix.push_back(line.substr(0,4));
+        message.push_back(line.substr(5 , line.size()));
+    }
+
+
+    ofstream outputFile;
+    outputFile.open("../write.txt");
+    if(!outputFile.is_open())
+    {
+        cout << "error";
+    }
+    for(int i=0;i<message.size();i++)
+    {
+
+        outputFile << message[i] << endl;
+    }
+    outputFile.close();

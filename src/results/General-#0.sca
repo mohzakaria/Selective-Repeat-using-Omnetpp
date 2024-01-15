@@ -1,0 +1,25 @@
+version 3
+run General-0-20231209-16:29:08-16804
+attr configname General
+attr datetime 20231209-16:29:08
+attr datetimef 20231209-162908
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 16804
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+
+par Network.node0 typename "\"networks_project.Node0\""
+par Network.node1 typename "\"networks_project.Node1\""
+par Network.coordinator typename "\"networks_project.Coordinator\""
+par Network typename "\"networks_project.Network\""
+

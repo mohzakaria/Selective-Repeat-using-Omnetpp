@@ -1,0 +1,4 @@
+0010 aaaa
+0001 b#bbb
+1011 cccc#
+0000 llll

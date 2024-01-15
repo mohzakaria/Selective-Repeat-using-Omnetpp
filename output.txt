@@ -1,0 +1,15 @@
+At Time 2, Node 1, Introducing channel error with code = 0010
+At Time 2.500000, Node 1 Sent a Frame with seq_num 0 and payload = #aaaa# and trailer= 00000000 Modified -1 Lost No Duplication 1 Delay 0.000000
+At Time 6.500000, Node 1 Sent a Frame with seq_num 0 and payload = #aaaa# and trailer= 00000000 Modified -1 Lost No Duplication 1 Delay 0.000000
+At Time 2, Node 1, Introducing channel error with code = 0001
+At Time 3.000000, Node 1 Sent a Frame with seq_num 1 and payload = #b/#bbb# and trailer= 00100011 Modified -1 Lost No Duplication 0 Delay 15.000000
+At Time 2, Node 1, Introducing channel error with code = 1011
+At Time 3.500000, Node 1 Sent a Frame with seq_num 2 and payload = #cccc£# and trailer= 00100011 Modified 4 Lost No Duplication 0 Delay 15.000000
+At Time 7.500000, Node 1 Sent a Frame with seq_num 2 and payload = #cccc£# and trailer= 00100011 Modified 4 Lost No Duplication 2 Delay 15.000000
+At Time 4.500000 Node 0 Sending ACK sequence number= 0 Loss NO
+At Time 4.5, Node 1, Introducing channel error with code = 0000
+At Time 5.000000, Node 1 Sent a Frame with seq_num 3 and payload = #llll# and trailer= 00000000 Modified -1 Lost No Duplication 0 Delay 0.000000
+At Time 7.000000 Node 0 Sending ACK sequence number= 3 Loss NO
+At Time 15.000000 Node 0 Sending ACK sequence number= 1 Loss Yes
+At Time 15.500000 Node 0 Sending NACK sequence number= 2 Loss Yes
+At Time 18.000000 Node 0 Sending ACK sequence number= 2 Loss Yes
